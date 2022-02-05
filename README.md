@@ -26,7 +26,9 @@ APIは[Heroku](https://jp.heroku.com/)にデプロイ済み(Heroku上でDocker�
 6
 ```
 
-## テスト
+## 動作確認
+`計算機API.postman_collection.json`をPostmanに読み込ませることで動作確認できます。
+### 単体テスト
 * パーサのテスト(文字列 -> ATSの変換): https://github.com/yuki-learn/calc-api/blob/main/calc-api/src/parser/tests.rs
 * ATSのテスト(実際の計算): https://github.com/yuki-learn/calc-api/blob/main/calc-api/src/ast/tests.rs
 ## Herokuデプロイ

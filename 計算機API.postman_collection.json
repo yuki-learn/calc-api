@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "497af01d-2146-4376-a8ea-5be70495aa16",
+		"name": "計算機API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "計算機API テスト",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"expr\": \"4+20/(5*2)\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://lit-mesa-21252.herokuapp.com/expr",
+					"protocol": "https",
+					"host": [
+						"lit-mesa-21252",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"expr"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
