@@ -23,6 +23,9 @@
 6
 ```
 
+## テスト
+* パーサのテスト(文字列 -> ATSの変換): https://github.com/yuki-learn/calc-api/blob/main/calc-api/src/parser/tests.rs
+* ATSのテスト(実際の計算): https://github.com/yuki-learn/calc-api/blob/main/calc-api/src/ast/tests.rs
 ## Herokuデプロイ
 1. `git clone https://github.com/yuki-learn/calculator-api.git`
 2. `heroku login`
